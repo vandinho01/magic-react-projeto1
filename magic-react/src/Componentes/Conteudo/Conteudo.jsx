@@ -16,8 +16,8 @@ function Conteudo() {
   return (
     <main className="conteudo">
       <section className="conteudo-textual">
-        <h2>Meu nome é Evandro</h2>
-        <h2>Sou programador</h2>
+        <h2 className="texto-introducao">Meu nome é Evandro</h2>
+        <h2>Sou desenvolvedor Web</h2>
         <button className="botao-saiba-mais" onClick={clicouNoBotao}>
           Saiba mais
         </button>
